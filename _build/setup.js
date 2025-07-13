@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 
+// Impede uso incorreto com npm install
+if (process.env.npm_config_argv?.includes("install")) {
+    console.error("❌ Este pacote deve ser usado com NPX. Não instale com 'npm install'.");
+    process.exit(1);
+}
+
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";

@@ -14,9 +14,9 @@ Projeto de estruturação inicial para aplicações web em ASP Clássico.
    - Node.js instalado.
 
 2. **Instalação e uso:**  
-   No terminal, execute:
+   No terminal, execute diretamente com `npx`:
    ```bash
-   node _build/setup.js
+   npx build-dl-bs5
    ```
    Isso irá:
    - Criar a estrutura de diretórios e arquivos em seu projeto.
@@ -34,7 +34,7 @@ Projeto de estruturação inicial para aplicações web em ASP Clássico.
      vendors/core/fancybox/
    components/
    includes/
-   dlfelix/
+   services/
    util/
    pages/home/
    ```

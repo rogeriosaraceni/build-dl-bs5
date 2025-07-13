@@ -40,8 +40,8 @@ export function getFileContent(dir, file) {
 
     if (dir === 'pages/home' && file === 'index.asp') {
         return `<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001" %>
-<!--#include virtual="/dlfelix/connection.asp"-->
-<!--#include virtual="/dlfelix/lock.asp"-->
+<!--#include virtual="/services/connection.asp"-->
+<!--#include virtual="/services/lock.asp"-->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -97,9 +97,9 @@ insert_final_newline = true
 `;
 
 export const packageJsonContent = {
-    name: "dlfelix-bs5",
+    name: "build-dl-bs5",
     version: "1.0.0",
-    description: "Projeto web dlfelix-bs5",
+    description: "Projeto web build-dl-bs5",
     main: "index.js",
     scripts: {},
     author: "",

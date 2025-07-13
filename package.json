@@ -1,17 +1,16 @@
 {
   "name": "build-dl-bs5",
-  "version": "1.0.1",
-  "description": "Gerador de estrutura ASP com Bootstrap 5 para projetos DLFelix",
+  "version": "1.0.2",
+  "description": "Gerador de estrutura ASP com Bootstrap 5",
   "bin": {
     "build-dl-bs5": "./_build/setup.js"
   },
   "type": "module",
+  "files": ["_build", "downloads", "_*.js"],
   "keywords": [
-    "asp",
     "bootstrap",
     "structure",
     "setup",
-    "dlfelix",
     "generator"
   ],
   "author": "Rogério Saraceni",

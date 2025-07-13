@@ -3,8 +3,6 @@ export const structure = {
     'assets/images': [],
     'assets/css': [],
     'assets/js': [],
-    'assets/libs': [],
-    'assets/vendors/core/fancybox': [],
     'components': ['loader.asp', 'alerts.asp', 'toasts.asp'],
     'includes': ['head.asp', 'header.asp', 'footer.asp', 'nav.asp'],
     'dlfelix': ['ADOBD_Command.asp', 'connection.asp', 'lock.asp', 'mail.asp', 'cryptography.asp'],

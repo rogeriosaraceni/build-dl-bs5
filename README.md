@@ -42,6 +42,7 @@ Projeto de estruturação inicial para aplicações web em ASP Clássico.
 ## 🚀 Tecnologias
 
 - [Bootstrap 5.3.7](https://getbootstrap.com/)
+- [Bootstrap-select 1.14.0-beta3](https://developer.snapappointments.com/bootstrap-select/)
 - [jQuery 3.7.1](https://jquery.com/)
 - [Fancybox 6.0](https://fancyapps.com/fancybox/)
 

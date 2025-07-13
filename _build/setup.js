@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -16,7 +18,7 @@ import { downloadVendorsCore } from "./downloads/vendorsCore.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const root = path.resolve(__dirname, '../project');
+const root = path.resolve(__dirname, '../');
 
 async function main() {
     createStructure(root, structure, getFileContent);
